@@ -32,4 +32,12 @@ class BaseHelper
     {
         return rand(0, 10);
     }
+
+    /**
+     * @return string
+     */
+    public static function getAuthorName()
+    {
+        return "Slava";
+    }
 }
