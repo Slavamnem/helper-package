@@ -2,4 +2,4 @@
 
 include 'vendor/autoload.php';
 
-echo \App\BaseHelper::getRandomNumber();
+echo \Slavamnem\Helper\Helper::getRandomNumber();

@@ -3,16 +3,11 @@
  * Created by PhpStorm.
  * User: user
  * Date: 15.02.2020
- * Time: 14:18
+ * Time: 18:14
  */
+namespace Slavamnem\Helper;
 
-namespace App;
-
-/**
- * Class BaseHelper
- * @package App
- */
-class BaseHelper
+class Helper
 {
     /**
      * @return array
@@ -21,7 +16,7 @@ class BaseHelper
     {
         return [
             'status' => 200,
-            'message' => 'BaseHelper works fine!'
+            'message' => 'Helper works fine!'
         ];
     }
 
@@ -38,6 +33,6 @@ class BaseHelper
      */
     public static function getAuthorName()
     {
-        return "Slava";
+        return "Slava!!!";
     }
 }
